@@ -594,6 +594,9 @@ border: none;
 .form-wrapper {
    margin-bottom: 8px;
 }
+.form-wrapper-comment{
+    margin-bottom: 16px;
+}
 .form-frame-label{
     display: block;
     margin-bottom: 4px;
