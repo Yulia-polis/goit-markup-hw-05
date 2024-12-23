@@ -470,7 +470,7 @@
       <div class="modal">
         
         <button type="button" class="modal-cloze">
-          <svg width="8" height="8">
+          <svg width="8" height="8" class="button-svg-modal">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -507,11 +507,11 @@
             </div>
             <div class="form-wrapper">
               <label class="form-frame-label" for="user-comment">Comment</label>
-              <textarea class="form-comment" id="user-comment" placeholder="Text input"></textarea>
+              <textarea class="form-comment" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
             </div>
             <div class="form-wrapper-checkbox">
-              <input class="checkbox visually-hidden" type="checkbox" name="checkbox" id="form-checkbox" required>
-              <label class="form-checkbox-label" for="form-checkbox"><span class="custom-checkbox"><svg class="custom-checkbox-svg" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg></span>I accept the terms and conditions of the <a href="#" class="blue">Privacy Policy</a></label>
+              <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" value="true"  id="user-privacy" required>
+              <label class="form-checkbox-label" for="user-privacy"><span class="custom-checkbox"><svg class="custom-checkbox-svg" width="10" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg></span>I accept the terms and conditions of the <a href="#" class="blue">Privacy Policy</a></label>
             </div>
             <button type="submit" class="form-btn-submit">Send</button>
         </form>
