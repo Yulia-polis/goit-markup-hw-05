@@ -592,7 +592,7 @@ border: none;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .form-wrapper {
-   margin-bottom: 16px;
+   margin-bottom: 8px;
 }
 .form-frame-label{
     display: block;
